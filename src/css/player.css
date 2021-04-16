@@ -1,0 +1,24 @@
+#player-wrapper {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  /* background-color: red; */
+  backdrop-filter: blur(5px);
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+#player-button {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+#track {
+  flex-grow: 1;
+  height: 1px;
+  background-color: red;
+}

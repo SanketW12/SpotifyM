@@ -1,0 +1,23 @@
+#card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 10px 15px 10px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+#card-wrapper > img {
+  border-radius: 5px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
+
+#card-wrapper > h6 {
+  color: #696969;
+  font-size: small;
+  word-wrap: break-word;
+  width: 75px;
+}
