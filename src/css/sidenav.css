@@ -33,6 +33,7 @@
   display: flex;
   font-size: smaller;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .nav-item a {

@@ -7,6 +7,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
+import { NavLink } from "react-router-dom";
 
 export default function SideNav() {
   return (
@@ -20,23 +21,24 @@ export default function SideNav() {
           <nav id="nav-menu">
             <div className="nav-item">
               <HeadsetIcon />
-              <a href="#">Discover</a>
+
+              <NavLink to="#">Discover </NavLink>
             </div>
             <div className="nav-item">
               <SearchIcon />
-              <a href="#">Search</a>
+              <NavLink to="#">Search </NavLink>
             </div>
             <div className="nav-item">
               <FavoriteIcon />
-              <a href="#">Favourites</a>
+              <NavLink to="#">Favourites</NavLink>
             </div>
             <div className="nav-item">
               <PlayCircleFilledIcon />
-              <a href="#">Playlists</a>
+              <NavLink to="#">Playlists</NavLink>
             </div>
             <div className="nav-item">
               <PlaylistPlayIcon />
-              <a href="#">Charts</a>
+              <NavLink to="#">Charts</NavLink>
             </div>
           </nav>
         </div>

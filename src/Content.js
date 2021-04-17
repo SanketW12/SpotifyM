@@ -44,11 +44,11 @@ export default function Content() {
       <div
         style={{ display: "flex", flexDirection: "column", overflow: "clip" }}
       >
-        {/* <Section title="RELEASED THIS WEEK"></Section>
+        <Section title="RELEASED THIS WEEK"></Section>
         <Section title="FEATURED PLAYLISTS"></Section>
-        <Section title="BROWSE"></Section> */}
+        <Section title="BROWSE"></Section>
 
-        <button onClick={handleLogin}>authenticate</button>
+        {/* <button onClick={handleLogin}>authenticate</button> */}
       </div>
     </>
   );

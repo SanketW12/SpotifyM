@@ -1,4 +1,5 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
 import SideNav from "./SideNav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -14,8 +15,20 @@ function App() {
         </div>
         <div id="content-wrapper">
           <Topbar></Topbar>
-          <Content></Content>
-          {/* <Player></Player> */}
+          <Switch>
+            <Route
+              component={() => {
+                return (
+                  <>
+                    <Content></Content>
+                  </>
+                );
+              }}
+            ></Route>
+
+            <Content></Content>
+            {/* <Player></Player> */}
+          </Switch>
         </div>
       </div>
     </>
